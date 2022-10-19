@@ -123,7 +123,7 @@ var xisazul = 'url("./xxx.png")'
 
 //função que gerencia as sequencias marcadas pelo player 1
 function seq1(){
-    if (Quadrado[0].backgroundImage =='url(\"/circulo.png\")' && Quadrado[1].backgroundImage =='url(\"/circulo.png\")' && Quadrado[2].backgroundImage =='url(\"/circulo.png\")'){
+    if (Quadrado[0].backgroundImage =='url(\"./circulo.png\")' && Quadrado[1].backgroundImage =='url(\"./circulo.png\")' && Quadrado[2].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage= circuloazul
         Quadrado[1].backgroundImage=circuloazul
