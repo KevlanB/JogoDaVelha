@@ -235,12 +235,7 @@ var contadorObj=[ ]
 
 
 function contador(){
-    if (contadorObj.length==9){
-        console.log(contadorObj.length)
-        bodyConfig.innerHTML="<div id='playerAlert'>EMPATE!!!!</div><button id='reload' onclick='clickn()'>Reload</button>"
-        
-        styleMssg()
-    }
+    
 
     
 }
@@ -278,8 +273,12 @@ function win (param){
         bodyConfig.innerHTML="<div id='playerAlert'>Player 1 venceu</div><button id='reload' onclick='clickn()'>Reload</button>"
     }else if (param=="player2"){
         bodyConfig.innerHTML="<div id='playerAlert'>Player 2 venceu</div><button id='reload' onclick='clickn()'>Reload</button>"
-    }
 
+    }else if (contadorObj.length==9){
+        console.log(contadorObj.length)
+        bodyConfig.innerHTML="<div id='playerAlert'>EMPATE!!!!</div><button id='reload' onclick='clickn()'>Reload</button>"
+        
+    }
 
    styleMssg()
     
