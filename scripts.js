@@ -148,7 +148,7 @@ function seq1(){
         Quadrado[0].backgroundImage=circuloazul
         Quadrado[3].backgroundImage=circuloazul
         Quadrado[6].backgroundImage=circuloazul
-        win("player 1");
+        win("player1");
     }else if (Quadrado[1].backgroundImage =='url(\"./circulo.png\")' && Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && Quadrado[7].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[1].backgroundImage=circuloazul
@@ -160,7 +160,7 @@ function seq1(){
         Quadrado[2].backgroundImage=circuloazul
         Quadrado[5].backgroundImage=circuloazul
         Quadrado[8].backgroundImage=circuloazul
-        win("player 1");
+        win("player1");
     }else if (Quadrado[0].backgroundImage =='url(\"./circulo.png\")' && Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && Quadrado[8].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage=circuloazul
@@ -254,6 +254,7 @@ function styleMssg(){
 
 
     let reload = document.getElementById('reload')
+    console.log(reload)
     let playerAlert = document.getElementById('playerAlert')
     reload.style.display="flex"
     reload.style.marginLeft="140px"
