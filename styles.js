@@ -78,7 +78,7 @@ boDy8.textAlign="center"
 boDy8.alignSelf="center"
 
 
-boDy9.width="125px"
+boDy9.width="125px" 
 boDy9.height="130px"
 boDy9.textAlign="center"
 boDy9.alignSelf="center"
