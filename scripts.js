@@ -118,8 +118,8 @@ function but2(){
     
 }
 
-var circuloazul = 'url("/ciculoazul.png")'
-var xisazul = 'url("/xxx.png")'
+var circuloazul = 'url("./ciculoazul.png")'
+var xisazul = 'url("./xxx.png")'
 
 //função que gerencia as sequencias marcadas pelo player 1
 function seq1(){
