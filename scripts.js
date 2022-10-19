@@ -88,9 +88,9 @@ Quadrado[8].marginLeft="20px"
 
 function verificaPLayer (parametro){
     if (buttoN1[0]==undefined){
-        Quadrado[parametro].backgroundImage="url(/xxx.png)"
+        Quadrado[parametro].backgroundImage="url(./xxx.png)"
     }else{
-        Quadrado[parametro].backgroundImage="url(/circulo.png)"
+        Quadrado[parametro].backgroundImage="url(./circulo.png)"
     }
     Quadrado[parametro].alignItems="center"
     
