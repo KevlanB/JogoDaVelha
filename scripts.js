@@ -233,11 +233,26 @@ function clickn(){
 
 var contadorObj=[ ]
 
+function empate(){
+    if (contadorObj.length==9){
+        console.log(contadorObj.length)
+        bodyConfig.innerHTML="<div id='playerAlert'>EMPATE!!!!</div><button id='reload' onclick='clickn()'>Reload</button>"
+        
+        styleMssg()
+    }
+}
 
 function contador(){
+    if (contadorObj.length%2){
+        console.log('impar')
+        console.log(contadorObj.length)
+        but2();
+    }else{
+        console.log('par')
+        console.log(contadorObj.length)
+        but1();
     
-
-    
+    }    
 }
 
 function styleMssg(){
@@ -274,80 +289,93 @@ function win (param){
     }else if (param=="player2"){
         bodyConfig.innerHTML="<div id='playerAlert'>Player 2 venceu</div><button id='reload' onclick='clickn()'>Reload</button>"
 
-    }else if (contadorObj.length==9){
-        console.log(contadorObj.length)
-        bodyConfig.innerHTML="<div id='playerAlert'>EMPATE!!!!</div><button id='reload' onclick='clickn()'>Reload</button>"
-        
     }
-
-   styleMssg()
     
-
-        
-
-
-        
+    
+   styleMssg()    
    
 }
 
 function makeoff1() {
     verificaPLayer(0);
-    seq1();
     contadorObj.push(1)
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff2() {
     verificaPLayer(1);
-    seq1();
     contadorObj.push(1)
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff3() {
     verificaPLayer(2);
+    
     contadorObj.push(1)
-    seq1();
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff4() {
     verificaPLayer(3);
+   
     contadorObj.push(1)
-    seq1();
+    
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff5() {
     verificaPLayer(4);
+   
     contadorObj.push(1)
-    seq1();
+  
     contador();
+    seq1();
+    empate()
 }
 function makeoff6() {
     verificaPLayer(5);
+   
     contadorObj.push(1)
-    seq1();
+    
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff7() {
     verificaPLayer(6);
+    
     contadorObj.push(1)
-    seq1();
+    
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff8() {
     verificaPLayer(7);
+ 
     contadorObj.push(1)
-    seq1();
+    
     contador();
+    seq1();
+    empate()
 }
 
 function makeoff9() {
     verificaPLayer(8);
+
     contadorObj.push(1)
-    seq1();
+    
     contador();
+    seq1();
+    empate()
 }
