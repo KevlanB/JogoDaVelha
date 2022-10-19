@@ -118,8 +118,8 @@ function but2(){
     
 }
 
-var circuloazul = 'url("./ciculoazul.png")'
-var xisazul = 'url("./xxx.png")'
+var circuloazul = 'url("/ciculoazul.png")'
+var xisazul = 'url("/xxx.png")'
 
 //função que gerencia as sequencias marcadas pelo player 1
 function seq1(){
@@ -131,91 +131,91 @@ function seq1(){
         win("player1");
         
 
-    }else if (Quadrado[3].backgroundImage =='url(\"/circulo.png\")' && Quadrado[4].backgroundImage =='url(\"/circulo.png\")' && Quadrado[5].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[3].backgroundImage =='url(\"./circulo.png\")' && Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && Quadrado[5].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[3].backgroundImage=circuloazul
         Quadrado[4].backgroundImage=circuloazul
         Quadrado[5].backgroundImage=circuloazul
         win("player1");
-    }else if (Quadrado[6].backgroundImage =='url(\"/circulo.png\")' && Quadrado[7].backgroundImage =='url(\"/circulo.png\")' && Quadrado[8].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[6].backgroundImage =='url(\"./circulo.png\")' && Quadrado[7].backgroundImage =='url(\"./circulo.png\")' && Quadrado[8].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[6].backgroundImage=circuloazul
         Quadrado[7].backgroundImage=circuloazul
         Quadrado[8].backgroundImage=circuloazul
         win("player1");
-    }else if (Quadrado[0].backgroundImage =='url(\"/circulo.png\")' && Quadrado[3].backgroundImage =='url(\"/circulo.png\")' && Quadrado[6].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[0].backgroundImage =='url(\"./circulo.png\")' && Quadrado[3].backgroundImage =='url(\"./circulo.png\")' && Quadrado[6].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage=circuloazul
         Quadrado[3].backgroundImage=circuloazul
         Quadrado[6].backgroundImage=circuloazul
         win("player 1");
-    }else if (Quadrado[1].backgroundImage =='url(\"/circulo.png\")' && Quadrado[4].backgroundImage =='url(\"/circulo.png\")' && Quadrado[7].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[1].backgroundImage =='url(\"./circulo.png\")' && Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && Quadrado[7].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[1].backgroundImage=circuloazul
         Quadrado[4].backgroundImage=circuloazul
         Quadrado[7].backgroundImage=circuloazul
         win("player1");
-    }else if (Quadrado[2].backgroundImage =='url(\"/circulo.png\")' && Quadrado[5].backgroundImage =='url(\"/circulo.png\")' && Quadrado[8].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[2].backgroundImage =='url(\"./circulo.png\")' && Quadrado[5].backgroundImage =='url(\"./circulo.png\")' && Quadrado[8].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[2].backgroundImage=circuloazul
         Quadrado[5].backgroundImage=circuloazul
         Quadrado[8].backgroundImage=circuloazul
         win("player 1");
-    }else if (Quadrado[0].backgroundImage =='url(\"/circulo.png\")' && Quadrado[4].backgroundImage =='url(\"/circulo.png\")' && Quadrado[8].backgroundImage =='url(\"/circulo.png\")'){
+    }else if (Quadrado[0].backgroundImage =='url(\"./circulo.png\")' && Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && Quadrado[8].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage=circuloazul
         Quadrado[4].backgroundImage=circuloazul
         Quadrado[8].backgroundImage=circuloazul
         win("player1");
     }else if (
-    Quadrado[2].backgroundImage =='url(\"/circulo.png\")' && 
-    Quadrado[4].backgroundImage =='url(\"/circulo.png\")' && 
-    Quadrado[6].backgroundImage =='url(\"/circulo.png\")'){
+    Quadrado[2].backgroundImage =='url(\"./circulo.png\")' && 
+    Quadrado[4].backgroundImage =='url(\"./circulo.png\")' && 
+    Quadrado[6].backgroundImage =='url(\"./circulo.png\")'){
         console.log('deu certo')
         Quadrado[2].backgroundImage=circuloazul
         Quadrado[4].backgroundImage=circuloazul
         Quadrado[6].backgroundImage=circuloazul
         win("player1");
-    }else if (Quadrado[3].backgroundImage =='url(\"/xxx.png\")' && Quadrado[4].backgroundImage =='url(\"/xxx.png\")' && Quadrado[5].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[3].backgroundImage =='url(\"./xxx.png\")' && Quadrado[4].backgroundImage =='url(\"./xxx.png\")' && Quadrado[5].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[3].backgroundImage=xisazul
         Quadrado[4].backgroundImage=xisazul
         Quadrado[5].backgroundImage=xisazul
         win("player2");
-    }else if (Quadrado[6].backgroundImage =='url(\"/xxx.png\")' && Quadrado[7].backgroundImage =='url(\"/xxx.png\")' && Quadrado[8].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[6].backgroundImage =='url(\"./xxx.png\")' && Quadrado[7].backgroundImage =='url(\"./xxx.png\")' && Quadrado[8].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[6].backgroundImage=xisazul
         Quadrado[7].backgroundImage=xisazul
         Quadrado[8].backgroundImage=xisazul
         win("player2");
-    }else if (Quadrado[0].backgroundImage =='url(\"/xxx.png\")' && Quadrado[3].backgroundImage =='url(\"/xxx.png\")' && Quadrado[6].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[0].backgroundImage =='url(\"./xxx.png\")' && Quadrado[3].backgroundImage =='url(\"./xxx.png\")' && Quadrado[6].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage=xisazul
         Quadrado[3].backgroundImage=xisazul
         Quadrado[6].backgroundImage=xisazul
         win("player2");
-    }else if (Quadrado[1].backgroundImage =='url(\"/xxx.png\")' && Quadrado[4].backgroundImage =='url(\"/xxx.png\")' && Quadrado[7].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[1].backgroundImage =='url(\"./xxx.png\")' && Quadrado[4].backgroundImage =='url(\"./xxx.png\")' && Quadrado[7].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[1].backgroundImage=xisazul
         Quadrado[4].backgroundImage=xisazul
         Quadrado[7].backgroundImage=xisazul
         win("player2");
-    }else if (Quadrado[2].backgroundImage =='url(\"/xxx.png\")' && Quadrado[5].backgroundImage =='url(\"/xxx.png\")' && Quadrado[8].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[2].backgroundImage =='url(\"./xxx.png\")' && Quadrado[5].backgroundImage =='url(\"./xxx.png\")' && Quadrado[8].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[2].backgroundImage=xisazul
         Quadrado[5].backgroundImage=xisazul
         Quadrado[8].backgroundImage=xisazul
         win("player2");
-    }else if (Quadrado[0].backgroundImage =='url(\"/xxx.png\")' && Quadrado[4].backgroundImage =='url(\"/xxx.png\")' && Quadrado[8].backgroundImage =='url(\"/xxx.png\")'){
+    }else if (Quadrado[0].backgroundImage =='url(\"./xxx.png\")' && Quadrado[4].backgroundImage =='url(\"./xxx.png\")' && Quadrado[8].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[0].backgroundImage=xisazul
         Quadrado[4].backgroundImage=xisazul
         Quadrado[8].backgroundImage=xisazul
         win("player2");
     }else if (
-    Quadrado[2].backgroundImage =='url(\"/xxx.png\")' && 
-    Quadrado[4].backgroundImage =='url(\"/xxx.png\")' && 
-    Quadrado[6].backgroundImage =='url(\"/xxx.png\")'){
+    Quadrado[2].backgroundImage =='url(\"./xxx.png\")' && 
+    Quadrado[4].backgroundImage =='url(\"./xxx.png\")' && 
+    Quadrado[6].backgroundImage =='url(\"./xxx.png\")'){
         console.log('deu certo')
         Quadrado[2].backgroundImage=xisazul
         Quadrado[4].backgroundImage=xisazul
