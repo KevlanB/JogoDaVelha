@@ -17,7 +17,7 @@ elemento.backgroundColor = "grey"
 
 
 
-boDy.backgroundImage="url(/velha.jpg)"
+boDy.backgroundImage="url(./velha.jpg)"
 boDy.backgroundSize="400px"
 boDy.marginTop = "20vh"
 boDy.marginLeft = "10%"
