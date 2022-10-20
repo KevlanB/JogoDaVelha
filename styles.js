@@ -17,10 +17,10 @@ elemento.backgroundColor = "grey"
 
 
 
-boDy.backgroundImage="url(./velha.jpg)"
+boDy.backgroundImage="url(/velha.jpg)"
 boDy.backgroundSize="400px"
 boDy.marginTop = "20vh"
-boDy.marginLeft = "10%"
+boDy.marginLeft = "0px"
 boDy.width = "400px"
 boDy.height = "400px"
 boDy.boxShadow = "2px 2px 0px 0px"
@@ -78,7 +78,7 @@ boDy8.textAlign="center"
 boDy8.alignSelf="center"
 
 
-boDy9.width="125px" 
+boDy9.width="125px"
 boDy9.height="130px"
 boDy9.textAlign="center"
 boDy9.alignSelf="center"
