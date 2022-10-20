@@ -17,7 +17,7 @@ const divbut = document.getElementById('buttons').style
 
 //estilização divs dos botoes;
 divbut.marginTop="-460px"
-divbut.marginLeft="17%"
+divbut.marginLeft="15px"
 
 //estilização dos botões;
 var but = [buttoN1, buttoN2]
@@ -323,9 +323,7 @@ function makeoff3() {
 
 function makeoff4() {
     verificaPLayer(3);
-   
     contadorObj.push(1)
-    
     contador();
     seq1();
     empate()
@@ -333,18 +331,14 @@ function makeoff4() {
 
 function makeoff5() {
     verificaPLayer(4);
-   
     contadorObj.push(1)
-  
     contador();
     seq1();
     empate()
 }
 function makeoff6() {
     verificaPLayer(5);
-   
     contadorObj.push(1)
-    
     contador();
     seq1();
     empate()
@@ -352,9 +346,7 @@ function makeoff6() {
 
 function makeoff7() {
     verificaPLayer(6);
-    
     contadorObj.push(1)
-    
     contador();
     seq1();
     empate()
@@ -362,9 +354,7 @@ function makeoff7() {
 
 function makeoff8() {
     verificaPLayer(7);
- 
     contadorObj.push(1)
-    
     contador();
     seq1();
     empate()
@@ -372,9 +362,7 @@ function makeoff8() {
 
 function makeoff9() {
     verificaPLayer(8);
-
     contadorObj.push(1)
-    
     contador();
     seq1();
     empate()
